@@ -1,0 +1,34 @@
+.navbar-item img {
+    max-height: 3.75rem;
+}
+
+.navbar-menu {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.navbar-end {
+    justify-content: flex-end;
+    margin-left: auto;
+    align-items: stretch;
+    display: flex;
+}
+
+.navbar .navbar-menu .navbar-item {
+    font-size: 18px;
+    font-weight: 300;
+    color: #293347;
+}
+
+.control {
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+}
+
+.navbar .navbar-menu a.button.is-primary.is-outlined {
+    border-width: 2px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1.2rem;
+}
